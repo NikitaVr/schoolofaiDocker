@@ -1,6 +1,6 @@
 # soaDockerTensorflow
 
-`docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":./mount jupyter/tensorflow-notebook`
+`docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD"/mount jupyter/tensorflow-notebook`
 
 ## Troubleshooting
 
@@ -12,4 +12,4 @@ Cleanup : `docker volume rm $(docker volume ls -qf dangling=true)`
 
 Get rid of \<none\> images : `docker rmi $(docker images | grep '^<none>' | awk '{print $3}')`
 
-run the command again `docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":./mount jupyter/tensorflow-notebook`
+run the command again `docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD"/mount jupyter/tensorflow-notebook`
