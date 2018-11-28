@@ -29,4 +29,6 @@ https://jupyter-docker-stacks.readthedocs.io/en/latest/using/common.html
 Useful when you want to preserve notebooks and other work even after the container is destroyed.
 
 You must grant the within-container notebook user or group (NB_UID or NB_GID) write access 
+
+to the host directory (e.g., sudo chown 1000 /some/host/folder/for/work).
 ```
