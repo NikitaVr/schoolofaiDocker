@@ -1,5 +1,7 @@
 # soaDockerTensorflow
 
+`chown 1000 mount/` this sets docker as owner of mount folder so it can write to it when mounted inside container
+
 `docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD"/mount jupyter/tensorflow-notebook`
 
 `docker-machine ip` 
