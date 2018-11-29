@@ -1,3 +1,7 @@
+# Clone Repository
+
+For Windows make sure to be inside a sub folder of `C:\Users` or else you will get permission errors
+
 # soaDockerTensorflow
 
 `chown 1000 mount/` this sets docker as owner of mount folder so it can write to it when mounted inside container
