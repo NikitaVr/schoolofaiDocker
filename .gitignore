@@ -39,5 +39,3 @@ config.rst
 /.pydevproject
 
 package-lock.json
-
-mount
