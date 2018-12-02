@@ -20,7 +20,15 @@ to download prebuilt image:
 
 `docker pull nikitavr/jupyter_stacks_tensorflow`
 
-Going forward
+Going forward use `nikitavr/jupyter_stacks_tensorflow` in the instructions instead of `jupyter_stacks_tensorflow`
+
+### 3
+
+to download prebuilt image without NLTK:
+
+`docker pull nikitavr/jupyter_stacks_tensorflow_lite`
+
+Going forward use `nikitavr/jupyter_stacks_tensorflow_lite` in the instructions instead of `jupyter_stacks_tensorflow`
 
 ## Run Image
 
