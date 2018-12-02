@@ -6,7 +6,7 @@ For Windows make sure to be inside a sub folder of `C:\Users` or else you will g
 
 `docker build -t jupyter_stacks_tensorflow . `
 
-`chown 1000 mount/` this sets docker as owner of mount folder so it can write to it when mounted inside container
+~~`chown 1000 mount/` this sets docker as owner of mount folder so it can write to it when mounted inside container~~
 
 `docker-machine ip` save this IP somewhere
 
