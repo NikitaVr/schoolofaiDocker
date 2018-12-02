@@ -24,7 +24,7 @@ Going forward use `nikitavr/jupyter_stacks_tensorflow` in the instructions inste
 
 ### 3
 
-to download prebuilt image without NLTK from https://hub.docker.com/:
+to download prebuilt image without NLTK from https://hub.docker.com/ :
 
 `docker pull nikitavr/jupyter_stacks_tensorflow_lite`
 
