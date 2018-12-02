@@ -2,9 +2,19 @@
 
 For Windows make sure to be inside a sub folder of `C:\Users` or else you will get permission errors
 
-# soaDockerTensorflow
+# Setup
+
+## Setup Image
+
+Do one of :
+
+to build locally:
 
 `docker build -t jupyter_stacks_tensorflow . `
+
+to download prebuilt image:
+
+`docker pull nikitavr/jupyter_stacks_tensorflow`
 
 ~~`chown 1000 mount/` this sets docker as owner of mount folder so it can write to it when mounted inside container~~
 
