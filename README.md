@@ -16,6 +16,12 @@ then go to `http://<machine ip>:8888/?token=<token>`
 
 ## Troubleshooting
 
+### Port taken ( by previosly running container ) 
+
+`docker container ls` look for ID of your already running process
+
+`docker kill <id>`
+
 ### Docker says no space left on device :
 
 https://stackoverflow.com/questions/30604846/docker-error-no-space-left-on-device
