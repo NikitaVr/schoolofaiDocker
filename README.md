@@ -34,7 +34,7 @@ Going forward use `nikitavr/jupyter_stacks_tensorflow_lite` in the instructions 
 
 ~~`chown 1000 mount/` this sets docker as owner of mount folder so it can write to it when mounted inside container~~
 
-`docker-machine ip` save this IP somewhere
+run this if using docker toolbox, otherwise you can just use localhost when connecting `docker-machine ip` save this IP somewhere
 
 `docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD"/mount:/home/jovyan/work jupyter_stacks_tensorflow`
 
