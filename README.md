@@ -8,9 +8,9 @@ For Windows make sure to be inside a sub folder of `C:\Users` or else you will g
 
 `chown 1000 mount/` this sets docker as owner of mount folder so it can write to it when mounted inside container
 
-`docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD"/mount:/home/jovyan/work jupyter_stacks_tensorflow`
+`docker-machine ip` save this IP somewhere
 
-`docker-machine ip` 
+`docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD"/mount:/home/jovyan/work jupyter_stacks_tensorflow`
 
 then go to `http://<machine ip>:8888/?token=<token>`
 
