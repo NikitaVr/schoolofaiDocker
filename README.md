@@ -16,7 +16,7 @@ to build locally:
 
 ### 2
 
-to download prebuilt image:
+to download prebuilt image from https://hub.docker.com/ :
 
 `docker pull nikitavr/jupyter_stacks_tensorflow`
 
@@ -24,7 +24,7 @@ Going forward use `nikitavr/jupyter_stacks_tensorflow` in the instructions inste
 
 ### 3
 
-to download prebuilt image without NLTK:
+to download prebuilt image without NLTK from https://hub.docker.com/:
 
 `docker pull nikitavr/jupyter_stacks_tensorflow_lite`
 
